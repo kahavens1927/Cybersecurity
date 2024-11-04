@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+
+    <link rel="Stylesheet" href="style.css">
+
+    <style>
+
+        header {
+
+            padding: 1rem 1rem;
+            background-color: #9D65E6;
+        }
+
+        main {
+
+            flex: 1;
+        }
+
+        @media only screen and (max-width: 900px) {
+
+.container {
+
+  flex-direction: column-reverse;
+
+}
+
+.infobar {
+
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+a {
+
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #857DB2;
+  color: #1C00B9;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  font-size: large;
+  font-weight: 800;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <span class="infotext"> <a href="index.html"> Home </a> </span>
+
+        <span class="infotext"> <a href="topics.html"> Topics </a> </span>
+
+        <span class="infotext"> <a href="cisa.html"> CISA </a> </span>
+
+    </header>
+
+<div class="container">
+
+   
+
+    <main class="maininfo">
+
+        <div style="color: #5FA5E3" class="frame">
+
+            <img style="position: absolute; height: 150px;" src="seal.svg">
+
+            <h1 style="position: relative;  text-align: right; right:30px"> America's <br> Cybersecurity 
+                <br> Government <br> Agency
+            </h1>
+
+            <a style="color: #00EEF5;" href="https://www.cisa.gov/"> <h2> CISA Website Link  
+
+            </h2> </a>
+            <br>
+
+            <h2 style="text-decoration: underline;"> CISA Directives </h2>
+
+            
+
+           <ul style="font-size: x-large;">
+            <li class="tooltip"> Partnership Development <span class="tooltiptext">CISA fosters 
+                innovative and collaborative partnerships that enable stakeholders in
+                the government and the private sector to make informed and voluntary risk
+                management decisions and investments.</span> </li>
+
+            <li class="tooltip"> Information and Data Sharing <span class="tooltiptext">CISA shares information 
+                with critical infrastructure partners and serves as the
+                national hub for cybersecurity and communications information, physical threats like
+                bombings and active shooter situations, and data sharing in near-real time.</span> </li>
+
+            <li class="tooltip"> Capacity Building <span class="tooltiptext">CISA provides 
+                capacity building, technical assistance, tools, exercises, training
+                programs, and awareness efforts that improve understanding of common risks and
+                possible mitigation strategies for the critical infrastructure community.</span>  </li>
+
+            <li class="tooltip"> Incident management and Response <span class="tooltiptext"> CISA serves as 
+                the federal lead for cyber incident response activities with the private
+                sector, state, local, tribal and territorial governments (SLTT), and federal agencies.
+                CISA also coordinates with public and private sector partners to support National
+                Security Special Events like the Super Bowl and offers risk management strategies to
+                help stakeholders manage the consequences of emerging and future risks.</span>  </li>
+
+            <li class="tooltip"> Risk Assesment and Analysis <span class="tooltiptext">CISA collects and 
+                analyzes risk data to inform and prioritize risk management
+                activities to prioritize critical infrastructure and associated National Critical Functions</span>  </li>
+
+            <li class="tooltip"> Network Defense <span class="tooltiptext">CISA uses processes, tools, and 
+                technologies to assess cyber and physical threats to
+                people and property, and the potential consequences of those threats.</span>  </li>
+
+            <li class="tooltip"> Emergency Communications <span class="tooltiptext">CISA enhances 
+                public safety interoperable communications at all levels of government</span>  </li>
+
+            </ul>
+
+
+        </div>
+
+    </main>
+
+
+</div>
+    
+</body>
+</html>

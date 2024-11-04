@@ -1,0 +1,138 @@
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+a {
+
+    text-decoration: none;
+    color: #003580;
+}
+
+a :hover {
+
+    background-color: #47B4CC;
+    color: #003580;
+}
+
+.container {
+    
+    display: flex;
+    min-height: calc(100vh - 100px);
+}
+
+header {
+
+    height: 75px;
+    background-color: #9D65E6;
+    display: flex;
+
+}
+
+.infobar {
+
+    min-width: 300px;
+    background-color: #5FA5E3;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+img {
+
+   
+    background-color: #003580;
+}
+
+.maininfo {
+
+    background-color: #ABB7E3;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.frame {
+
+    height: 550px;
+    width: 450px;
+    background-color: #003580;
+    border-radius: 40px;
+
+}
+
+
+
+
+
+.infotext {
+
+    font-weight: 1000;
+    font-size: 30px;
+    margin: auto;
+
+}
+
+
+
+
+h1 {
+
+    text-align: center;
+}
+
+h3 {
+
+    margin: 15px;
+   
+ }
+
+ h2 {
+
+    text-align: center;
+ }
+
+
+.box {
+
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+
+}
+
+.attack {
+
+    background-color:#47B4CC;
+   
+    
+}
+
+.data {
+
+    background-color: #1C86FF;
+    
+
+}
+
+.auth {
+
+    background-color: #5FA5E3;
+    
+
+}
+
+
+
+
